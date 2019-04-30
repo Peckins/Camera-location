@@ -1,2 +1,24 @@
-/**/
-
+.botoes input{ /*radio button some*/
+ display:none;
+}
+/* estiliza os boto (some,) */
+.btnfoto{
+  background-color: transparent;
+  align-items: center;
+  padding-left: 10px;
+}
+.jumbotron{
+  background-color:cornflowerblue;
+}
+body{
+  background-color: lightcoral; 
+}
+.lbl_foto{
+  text-align: center;
+}
+header{
+  text-align: center;
+}
+div{
+  text-align: center;
+}
