@@ -1,24 +1,27 @@
-.botoes input{ /*radio button some*/
- display:none;
-}
-/* estiliza os boto (some,) */
-.btnfoto{
-  background-color: transparent;
-  align-items: center;
-  padding-left: 10px;
-}
-.jumbotron{
-  background-color:cornflowerblue;
-}
+/**/
+
 body{
-  background-color: lightcoral; 
+  background-color: #a7bbcc;
 }
-.lbl_foto{
-  text-align: center;
+
+#camera{
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
-header{
-  text-align: center;
+
+#lat{
+  margin-top: 5%;
 }
-div{
-  text-align: center;
+
+h1{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#map{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%; 
+  height: 0px;
+  opacity: 0;
 }
