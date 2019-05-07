@@ -6,8 +6,6 @@
   <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
   <script src="components/loader.js"></script>
   <script src="lib/onsenui/js/onsenui.min.js"></script>
-  <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
-  <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
 
   <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
 
@@ -21,24 +19,20 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 
+  <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+
 </head>
 <body>
 
   <header>
     <label>Tirar uma foto</label>
-    <button class="btn btn-block btnfoto" id="tirarFoto"><img src="img/foto.png" for="rd_foto" width="50%" height="150"></button>
+    <button class="btn btn-block btnfoto" id="camera"><img src="img/foto.png" for="rd_foto" width="50%" height="150"></button>
     <div class="botoes">
 
-  <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <button id="btncamera"class="btn btn-block btn-primary" id="camera" style="font-weight: bold">Câmera</button>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-xs-12">
-        <img id="myImage" for="btncamera"src="img/foto.png" style="width: 100%;" alt="">
+        <img id="myImage" style="width: 100%;" alt="">
       </div>
     </div>
 
@@ -57,23 +51,12 @@
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-xs-12" id="mstMapa" class="hidden">
-        <center>
-          <div id="map"></div>
-        </center>
-      </div>
-    </div>
-
   </header>
-  <div class="jumbotron" id="inicial">
-      <label>Saber sua localização</label>
-      <button class="btn btn-block btnfoto"><img src="img/mapa.png" for="rd_mapa" width="50%" height="150"></button>
-  </div>
+
   <br>
   <label>Mapa</label>
   <br>
-  <div id="map"></div>
+  <div id="map"i></div>
 
   </div>
 
